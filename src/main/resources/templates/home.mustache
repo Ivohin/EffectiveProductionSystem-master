@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Effective Production System</title>
+</head>
+<body>
+<h1>Results:</h1>
+
+<table border="1">
+    <tr>
+        <th>Request No</th>
+        <th>Description</th>
+        <th>Start Time</th>
+    </tr>
+    {{#widgets}}
+        <tr>
+            <td>{{name}}</td><td>{{description}}</td><td>{{time}}</td>
+        </tr>
+    {{/widgets}}
+</table>
+
+</body>
+</html>
